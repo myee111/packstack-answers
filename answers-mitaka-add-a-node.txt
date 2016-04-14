@@ -84,7 +84,7 @@ CONFIG_NAGIOS_INSTALL=n
 # time with the same answer file and do not want Packstack to
 # overwrite these server's configurations. Leave empty if you do not
 # need to exclude any servers.
-EXCLUDE_SERVERS=10.63.174.16,10.63.174.18,10.63.174.20
+EXCLUDE_SERVERS=
 
 # Specify 'y' if you want to run OpenStack services in debug mode;
 # otherwise, specify 'n'. ['y', 'n']
@@ -1213,7 +1213,7 @@ CONFIG_GNOCCHI_DB_PW=PW_PLACEHOLDER
 CONFIG_GNOCCHI_KS_PW=PW_PLACEHOLDER
 
 # Secret key for signing Telemetry service (ceilometer) messages.
-CONFIG_CEILOMETER_SECRET=f288d162abdf4181
+CONFIG_CEILOMETER_SECRET=1750746bcfdd40ba
 
 # Password to use for Telemetry to authenticate with the Identity
 # service.
@@ -1294,4 +1294,4 @@ CONFIG_SAHARA_DB_PW=PW_PLACEHOLDER
 CONFIG_SAHARA_KS_PW=PW_PLACEHOLDER
 
 # Password of the nagiosadmin user on the Nagios server.
-CONFIG_NAGIOS_PW=a1861c3e2f4642f2
+CONFIG_NAGIOS_PW=PW_PLACEHOLDER
